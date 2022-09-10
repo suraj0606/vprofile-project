@@ -151,6 +151,14 @@
 	            <version>1.7.1.RELEASE</version>
 	    </dependency>
 	
+	     <dependency>
+  <groupId>org.testng</groupId>
+  <artifactId>testng</artifactId>
+  <version>7.6.0</version>
+  <scope>test</scope>
+</dependency>
+	    
+	    
 	    <dependency>
 	            <groupId>com.rabbitmq</groupId>
 	            <artifactId>amqp-client</artifactId>
@@ -178,15 +186,7 @@
      <build>
         <plugins>
 	     
-      <plugin>
-      <dependency>
-  <groupId>org.testng</groupId>
-  <artifactId>testng</artifactId>
-  <version>7.6.0</version>
-  <scope>test</scope>
-</dependency>
-
-      </plugin>
+     
           	
 		
 		
